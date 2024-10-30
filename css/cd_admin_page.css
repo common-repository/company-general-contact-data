@@ -1,0 +1,42 @@
+#tabs{
+
+}
+	.nav-tab-wrapper {
+
+	}
+		.tabNavigation { /* <u> */
+			margin: 0;
+		}
+			.tabNavigation li {
+				display: inline-block;
+				margin: 0;
+				border-color: #DFDFDF #DFDFDF white;
+			}
+			.tabNavigation li.ui-state-active {
+				border-color: #CCC #CCC white;
+			}
+				.tabNavigation li.ui-state-active a {
+					border-width: 1px;
+					color: #464646;
+				}
+				.tabNavigation li a {
+					color: #AAA;
+					outline: none;
+				}
+
+				.params {
+					overflow: hidden;
+					
+				}
+					.params .title {
+						font-weight: 700;
+					}
+					.params_float {
+						float: left;
+						margin-left: 50px;
+					}
+
+					#contact_data_map {
+						width: 460px;
+						height: 120px;
+					}
